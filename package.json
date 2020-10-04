@@ -1,0 +1,34 @@
+{
+  "name": "@softcreatr/almost-naked",
+  "description": "A pretty simple CSS library to start with. Contains reset, typography and grids.",
+  "license": "ISC",
+  "author": "Sascha Greuel <hello@1-2.dev>",
+  "homepage": "https://github.com/SoftCreatR/almost-naked",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoftCreatR/almost-naked.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SoftCreatR/almost-naked/issues"
+  },
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "sass": "^1.26.11"
+  },
+  "keywords": [
+    "css",
+    "grid",
+    "reset",
+    "sass",
+    "scss",
+    "typography"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}

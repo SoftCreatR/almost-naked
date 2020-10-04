@@ -1,0 +1,11 @@
+/**
+ * Remove the outline from elements that shouldn't show a focus state
+ * @source https://github.com/twbs/bootstrap/blob/main/scss/_reboot.scss#L63
+ */
+[tabindex="-1"]:focus:not(:focus-visible) {
+  outline: 0 !important;
+}
+
+[hidden] {
+  display: none !important;
+}

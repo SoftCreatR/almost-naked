@@ -1,0 +1,47 @@
+/**
+ * Set `border-box` on block-level elements
+ * @source https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements
+ */
+address,
+article,
+aside,
+blockquote,
+details,
+dialog,
+dd,
+div,
+dl,
+dt,
+fieldset,
+figure,
+figcaption,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+hr,
+li,
+main,
+nav,
+ol,
+p,
+pre,
+section,
+table,
+ul {
+  box-sizing: border-box;
+}
+
+/**
+ * Remove default margin from body
+ * @source https://github.com/twbs/bootstrap/blob/main/scss/_reboot.scss#L35
+ */
+body {
+  margin: 0;
+}
